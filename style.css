@@ -1,46 +1,45 @@
 body {
-	margin: 3em;
-	padding: 0;
-	font-family: sans-serif;
-	font-size: 18px;
-	line-height: 1.5;
+  margin: 3em;
+  padding: 0;
+  font-family: sans-serif;
+
+  line-height: 1.5;
 }
 
 h1 {
-	line-height: 1.25;
-	margin: 2em 0 0;
+  line-height: 1.25;
+  margin: 2em 0 0;
 }
 
 p {
-	margin: .5em 0;
+  margin: 0.5em 0;
 }
 
 #switcher {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 #switcher li {
-	width: 2rem;
-	line-height: 2rem;
-	border: 1px dotted;
-	text-align: center;
-	cursor: pointer;
+  width: 2rem;
+  line-height: 2rem;
+  border: 1px dotted;
+  text-align: center;
+  cursor: pointer;
 }
 
 #switcher li:hover {
-	background: tomato;
+  background: tomato;
 }
-
+/* 
 .smaller {
-	font-size: smaller;
+  font-size: smaller;
 }
 
 .bigger {
-	font-size: larger;
-}
-
+  font-size: larger;
+} */
