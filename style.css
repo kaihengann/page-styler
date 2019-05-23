@@ -48,15 +48,15 @@ p {
 }
 
 #bg-switcher li:nth-child(1):hover {
-  background:red;
+  background: red;
 }
 
-#bg-switcher li:nth-child(2):hover {
-  background:green;
+#bg-switcher li:nth-child(2):hover {gi
+  background: green;
 }
 
 #bg-switcher li:nth-child(3):hover {
-  background:blue;
+  background: blue;
 }
 
 .red {

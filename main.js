@@ -25,19 +25,13 @@ biggerFont.addEventListener('click', () => {
 
 /* Background color switcher */
 
-// Select switcher buttons 
+// Select switcher buttons and body
 let body = document.querySelector('body')
 let redBtn = document.querySelector('#red');
 let greenBtn = document.querySelector('#green');
 let blueBtn = document.querySelector('#blue');
 
 // Event listeners for switcher buttons
-redBtn.addEventListener('click', () => {
-  body.classList.toggle('red');
-});
-greenBtn.addEventListener('click', () => {
-  body.classList.toggle('green');
-});
-blueBtn.addEventListener('click', () => {
-  body.classList.toggle('blue');
-});
+redBtn.addEventListener('click', () => body.classList.toggle('red'));
+greenBtn.addEventListener('click', () => body.classList.toggle('green'));
+blueBtn.addEventListener('click', () => body.classList.toggle('blue'));
