@@ -2,20 +2,25 @@ body {
   margin: 3em;
   padding: 0;
   font-family: sans-serif;
-
   line-height: 1.5;
+}
+
+div {
+  font-size: 1em;
 }
 
 h1 {
   line-height: 1.25;
   margin: 2em 0 0;
+  font-size: 2em;
 }
 
 p {
   margin: 0.5em 0;
+  font-size: 1em;
 }
 
-#switcher {
+#font-switcher, #bg-switcher {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -24,22 +29,44 @@ p {
   align-items: center;
 }
 
-#switcher li {
+#font-switcher li {
   width: 2rem;
   line-height: 2rem;
   border: 1px dotted;
   text-align: center;
   cursor: pointer;
 }
-
-#switcher li:hover {
+#bg-switcher li {
+  width: 3rem;
+  line-height: 2rem;
+  border: 1px dotted;
+  text-align: center;
+  cursor: pointer;
+}
+#font-switcher li:hover {
   background: tomato;
 }
-/* 
-.smaller {
-  font-size: smaller;
+
+#bg-switcher li:nth-child(1):hover {
+  background:red;
 }
 
-.bigger {
-  font-size: larger;
-} */
+#bg-switcher li:nth-child(2):hover {
+  background:green;
+}
+
+#bg-switcher li:nth-child(3):hover {
+  background:blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
